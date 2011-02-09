@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Billy Kimble"]
-  s.date = %q{2011-02-08}
+  s.date = %q{2011-02-09}
   s.description = %q{ImageGenie - Simple Wrapper for command line ImageMagick}
   s.email = %q{basslines@gmail.com}
   s.extra_rdoc_files = ["README.rdoc", "lib/image_genie.rb", "lib/image_genie/base.rb", "lib/image_genie/command.rb", "lib/image_genie/convert.rb", "lib/image_genie/identify.rb", "lib/image_genie/montage.rb", "lib/image_genie/verify.rb"]
