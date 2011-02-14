@@ -37,7 +37,7 @@ module ImageGenie
       define_method(method) do |*splat|
         module_name = "#{self.name}::#{method.to_s.capitalize}"
         target = module_name.constantize
-        target.run(*splat)
+        target.new(*splat).run
       end
     end
   end

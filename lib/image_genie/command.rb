@@ -18,10 +18,10 @@ module ImageGenie
         caller_obj.pid, caller_obj.stdin, caller_obj.stdout, caller_obj.stderr = Open4::popen4(command)
         caller_obj.input if caller_obj.respond_to?(:input)
         caller_obj.output if caller_obj.respond_to?(:output)
-        puts "Waiting"
+#        puts "Waiting"
         ignored, status = Process::waitpid2 caller_obj.pid
         self.status = status.exitstatus
-        puts "checking for error now"
+#        puts "checking for error now"
         caller_obj.error if caller_obj.respond_to?(:error)
       rescue Exception => e
         raise

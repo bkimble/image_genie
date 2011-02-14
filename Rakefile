@@ -3,7 +3,7 @@ require 'rake'
 require 'echoe'  
 require 'rake/testtask'
 
-Echoe.new('image_genie', '0.3.0') do |p|  
+Echoe.new('image_genie', '0.4.0') do |p|  
   p.description     = "ImageGenie - Simple Wrapper for command line ImageMagick"  
   p.url             = "https://github.com/bkimble"
   p.author          = "Billy Kimble"  

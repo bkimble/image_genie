@@ -2,15 +2,15 @@
 
 Gem::Specification.new do |s|
   s.name = %q{image_genie}
-  s.version = "0.2.0"
+  s.version = "0.4.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Billy Kimble"]
-  s.date = %q{2011-02-09}
+  s.date = %q{2011-02-14}
   s.description = %q{ImageGenie - Simple Wrapper for command line ImageMagick}
   s.email = %q{basslines@gmail.com}
-  s.extra_rdoc_files = ["README.rdoc", "lib/image_genie.rb", "lib/image_genie/base.rb", "lib/image_genie/command.rb", "lib/image_genie/convert.rb", "lib/image_genie/identify.rb", "lib/image_genie/montage.rb", "lib/image_genie/verify.rb"]
-  s.files = ["Manifest", "README.rdoc", "Rakefile", "lib/image_genie.rb", "lib/image_genie/base.rb", "lib/image_genie/command.rb", "lib/image_genie/convert.rb", "lib/image_genie/identify.rb", "lib/image_genie/montage.rb", "lib/image_genie/verify.rb", "test/test_helper.rb", "test/unit/base_test.rb", "image_genie.gemspec"]
+  s.extra_rdoc_files = ["README", "README.rdoc", "lib/image_genie.rb", "lib/image_genie/base.rb", "lib/image_genie/command.rb", "lib/image_genie/convert.rb", "lib/image_genie/identify.rb", "lib/image_genie/montage.rb", "lib/image_genie/test.rb", "lib/image_genie/verify.rb"]
+  s.files = ["Manifest", "README", "README.rdoc", "Rakefile", "image_genie.gemspec", "lib/image_genie.rb", "lib/image_genie/base.rb", "lib/image_genie/command.rb", "lib/image_genie/convert.rb", "lib/image_genie/identify.rb", "lib/image_genie/montage.rb", "lib/image_genie/test.rb", "lib/image_genie/verify.rb", "test/test_helper.rb", "test/unit/base_test.rb"]
   s.homepage = %q{https://github.com/bkimble}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Image_genie", "--main", "README"]
   s.require_paths = ["lib"]
